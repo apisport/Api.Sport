@@ -1,5 +1,5 @@
-import Carousel from '../../components/user/detail-lapangan/Carousel'
-import CardJadwal from '../../components/user/detail-lapangan/CardJadwal'
+import Carousel from '../components/user/detail-lapangan/Carousel'
+import CardJadwal from '../components/user/detail-lapangan/CardJadwal'
 export default function Home() {
     return (
         <div className="container">

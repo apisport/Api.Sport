@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Helmet from 'react-helmet'
 import Carousel from 'react-bootstrap/Carousel'
-import CardRekomendasi from '../../components/user/lapangan/CardRekomendasi'
-import CardKategori from '../../components/user/lapangan/CardKategori'
-import Pagination from '../../components/Pagination'
+import CardRekomendasi from '../components/user/lapangan/CardRekomendasi'
+import CardKategori from '../components/user/lapangan/CardKategori'
+import Pagination from '../components/Pagination'
 
 
 export default function Lapangan() {

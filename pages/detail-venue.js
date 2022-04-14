@@ -1,4 +1,4 @@
-import CardLapangan from "../../components/user/detail-venue/CardLapangan";
+import CardLapangan from "../components/user/detail-venue/CardLapangan";
 
 export default function Home() {
   return (
