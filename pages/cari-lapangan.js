@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Helmet from 'react-helmet'
-import Pagination from '../../components/Pagination'
-import CardVenue from '../../components/user/cari/CardVenue'
+import Pagination from '../components/Pagination'
+import CardVenue from '../components/user/cari/CardVenue'
 
 
 export default function Lapangan() {

@@ -2,41 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Helmet from 'react-helmet'
 import Carousel from 'react-bootstrap/Carousel'
-import CardRekomendasi from '../components/user/lapangan/CardRekomendasi'
-import CardKategori from '../components/user/lapangan/CardKategori'
-import Pagination from '../components/Pagination'
+import CardRekomendasi from '../../components/user/lapangan/CardRekomendasi'
+import CardKategori from '../../components/user/lapangan/CardKategori'
+import Pagination from '../../components/Pagination'
 
 
 export default function Lapangan() {
     return (
         <>
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={2} aria-label="Slide 3" />
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="images/slider-1.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="images/slider-1.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="images/slider-1.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true" />
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true" />
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div>
-
             <div className='container my-4'>
                 <h1>Daftar Lapangan</h1>
             </div>
@@ -53,7 +26,7 @@ export default function Lapangan() {
                 <div className="container my-4 text-black-50" >
                     <h2 style={{ color: 'black' }}>Rekomendasi Lapangan</h2>
                     <hr></hr>
-                    <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                    <div className="row row-cols-1 row-cols-md-4 g-4 mt-3">
 
                         <CardRekomendasi />
                     </div>
@@ -72,7 +45,7 @@ export default function Lapangan() {
 
                 </div>
                 <div className='container mt-4 text-black-50 mt-5'>
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="row row-cols-1 row-cols-md-4 g-4">
 
                         <CardKategori />
                     </div>
