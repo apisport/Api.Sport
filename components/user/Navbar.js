@@ -29,7 +29,7 @@ const Navbar = () => {
                                         <a className="nav-link" href="/lapangan">Lapangan</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Tentang Kami</a>
+                                        <a className="nav-link" href="/tentang-kami">Tentang Kami</a>
                                     </li>
                                 </ul>
                             </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <a className="nav-link" href="/lapangan">Lapangan</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Tentang Kami</a>
+                            <a className="nav-link" href="/tentang-kami">Tentang Kami</a>
                         </li>
                     </ul>
                     <div className="gap-3">
