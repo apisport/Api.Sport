@@ -80,9 +80,6 @@ export default function Home() {
           <h2 style={{ color: 'black' }} className='mb-5'>Apa Kata Mereka?</h2>
           <CardTestimonial />
         </div>
-        <div className='container mt-4 my-4 text-black-50'>
-          <h2 style={{ color: 'black' }} className='mb-5'>Cara Pemesanan</h2>
-        </div>
 
 
 
