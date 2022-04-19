@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="images/slider-1.jpg" className="d-block w-100" alt="..." />
+            <img src="images/slider-1.jpg" className="d-block img-fluid w-100" alt="..." />
           </div>
           <div className="carousel-item">
             <img src="images/slider-1.jpg" className="d-block w-100" alt="..." />
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <div>
         <div className="container my-4 text-black-50" >
-          <h2 style={{ color: 'black' }}>Rekomendasi Lapangan</h2>
+          <h2 style={{ color: 'black' }} className='fw-bold fst-italic'>REKOMENDASI LAPANGAN</h2>
           <hr></hr>
           <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
 
@@ -77,8 +77,11 @@ export default function Home() {
           <Pagination />
         </div>
         <div className='container mt-4 my-4 text-black-50'>
-          <h2 style={{ color: 'black' }} className='mb-5'>Apa Kata Mereka?</h2>
+          <h2 style={{ color: '#EE8F00' }} className='mb-5 header-custom' sr>TESTIMONI</h2>
           <CardTestimonial />
+        </div>
+        <div className='container mt-4 my-4 text-black-50'>
+          <h2 style={{ color: '#EE8F00' }} className='mb-5 header-custom' sr>ALUR BOOKING</h2>
         </div>
 
 

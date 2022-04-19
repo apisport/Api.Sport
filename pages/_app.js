@@ -17,6 +17,7 @@ import "../styles/fonts/fontawesome-all.min.css"
 import "../styles/fonts/font-awesome.min.css"
 import "../styles/pagination.css"
 import "../styles/userTestimonial.css"
+import "../styles/user.css"
 import { useRouter } from 'next/router'
 import LayoutUser from '../layout/user/LayoutUser'
 import LayoutMitra from '../layout/admin/LayoutAdmin'
