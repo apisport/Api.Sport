@@ -24,7 +24,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 p-3"> <img className=" d-block w-100" src="https://placekitten.com/100/200" height={200} /> </div>
+            <div className="col-md-6 p-3"> <img className=" d-block w-100" src="images/futsallap.jpg" height={300} /> </div>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
 
             <div className="mt-4 text-center">
-              <img src="https://placekitten.com/200/300" />
+              <img src="images/buktiBayar.jpg" className="" height={500}/>
             </div>
             <div className="d-flex flex-row mt-3">
               <span className='font-weight-normal' style={{ color: 'red' }}><b>*Mohon untuk mengupload bukti pembayaran hingga 13:30 WIB atau pembayaran akan di cancel</b></span>

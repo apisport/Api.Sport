@@ -6,7 +6,7 @@ const CardLapanganHome = (props) => {
             <a href='/detail-venue'>
                 <div className="col card shadow">
                     <div className="card text-start">
-                        <img src="http://placekitten.com/100/200" className="card-img-top d-block" alt="..." width={300} height={200} />
+                        <img src="images/futsallap.jpg" className="card-img-top d-block" alt="..." width={300} height={200} />
                         <div className="card-body">
                             <h5 className="card-title" style={{ color: "black" }}><strong>Lapangan Mitra</strong></h5>
                             <span className="card-text" style={{ color: "black" }}><icon className='fa fa-calendar'></icon> Senin - Rabu</span><br></br>

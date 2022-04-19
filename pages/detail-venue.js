@@ -20,13 +20,13 @@ export default function Home() {
                     </div>
                     <div className="carousel-inner">
                       <div className="carousel-item active">
-                        <img src="http://placekitten.com/100/200" width='170' height='200' className="d-block w-100" />
+                        <img src="images/futsallap.jpg" width='170' height='200' className="d-block w-100" />
                       </div>
                       <div className="carousel-item" >
-                        <img src="http://placekitten.com/100/200" width='170' height='200' className="d-block w-100" />
+                        <img src="images/futsallap.jpg" width='170' height='200' className="d-block w-100" />
                       </div>
                       <div className="carousel-item">
-                        <img src="http://placekitten.com/100/200" width='170' height='200' className="d-block w-100" />
+                        <img src="images/futsallap.jpg" width='170' height='200' className="d-block w-100" />
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
