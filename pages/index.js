@@ -50,7 +50,7 @@ export default function Home() {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="btn-group col-md-12">
               <input type="text" className="form-control col-10 mt-2 col-md-10" placeholder="Cari Lapangan Disini" />
-              <a href='/user/cari-lapangan' className="form-control col-2 mt-2 col-sm-2 btn shadow-sm" style={{ backgroundColor: '#ffbe2e' }}><button ><i className="fa fa-search text-white"></i></button></a>
+              <a href='/user/cari-lapangan' className="form-control col-2 mt-2 col-sm-2 btn shadow-sm" style={{ backgroundColor: '#EE8F00' }}><button ><i className="fa fa-search text-white"></i></button></a>
             </div>
           </div>
         </div>
@@ -82,6 +82,7 @@ export default function Home() {
         </div>
         <div className='container mt-4 my-4 text-black-50'>
           <h2 style={{ color: '#EE8F00' }} className='mb-5 header-custom' sr>ALUR BOOKING</h2>
+          <img src='./alur.png' className='d-block img-fluid' />
         </div>
 
 
