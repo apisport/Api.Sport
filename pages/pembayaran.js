@@ -77,7 +77,7 @@ export default function Home() {
               <span className='font-weight-normal' style={{ color: 'red' }}><b>*Mohon untuk mengupload bukti pembayaran hingga 13:30 WIB atau pembayaran akan di cancel</b></span>
             </div>
             <div class="d-grid gap-2 py-4 ">
-              <button class="btn btn-primary p-3" type="button" style={{ backgroundColor: '#006E61' }}>Kirim</button>
+              <button class="btn btn-primary p-3 fw-bold" type="button" style={{ backgroundColor: '#006E61' }}>Kirim</button>
             </div>
           </form>
         </div>
