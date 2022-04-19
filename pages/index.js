@@ -56,7 +56,7 @@ export default function Home() {
           <div className="col-3 col-lg-3">
             <a href="#">
               <img src='icons/bulutangkis.jpg' className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} role="img" aria-label="Placeholder: 140x140" />
-              <p className="mt-2 p-1" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px", fontSize: '2vh' }}>Bulu Tangkis</p>
+              <p className="mt-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px", fontSize: '2vh' }}>Bulu Tangkis</p>
             </a>
           </div>
           <div className="col-3 col-lg-3">
