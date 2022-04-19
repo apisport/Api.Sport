@@ -3,7 +3,7 @@ import CardLapangan from "../components/user/detail-venue/CardLapangan";
 export default function Home() {
   return (
     <div className="container">
-      <h1>Detail Venue</h1>
+      <h1 className="fw-bold fst-italic">Detail Venue</h1>
       <div className="row mb-4">
         <div className="col">
           <div className=" shadow-sm" style={{ backgroundColor: 'white' }}>
