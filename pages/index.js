@@ -90,18 +90,6 @@ export default function Home() {
             <CardRekomendasi />
           </div>
         </div>
-        <div className='container mt-4 text-black-50'>
-          <h2 style={{ color: 'black' }}>Daftar Lapangan</h2>
-
-        </div>
-        <div className='container mt-4 text-black-50'>
-          <div className="row row-cols-1 row-cols-md-3 g-4">
-            <CardLapanganHome />
-          </div>
-        </div>
-        <div className='container d-flex mt-4 text-center justify-content-center'>
-          <Pagination />
-        </div>
         <div className='container mt-4 my-4 text-black-50'>
           <h2 style={{ color: '#EE8F00' }} className='mb-5 header-custom' sr>TESTIMONI</h2>
           <CardTestimonial />
