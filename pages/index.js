@@ -38,6 +38,47 @@ export default function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <div className='container my-4'>
+        <h3 className='fw-bold fst-italic'>KATEGORI OLAHRAGA</h3>
+        <div className="row row-cols-4 row-cols-md-4 g-4 mt-3">
+          <div className="col-lg-3">
+            <a href="#">
+              <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+              <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px" }}>Futsal</p>
+            </a>
+          </div>
+          <div className="col-lg-3">
+            <a href="#">
+              <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+              <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px" }}>Voli</p>
+            </a>
+          </div>
+          <div className="col-lg-3">
+            <a href="#">
+              <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+              <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px", fontSize: '2vh' }}>Bulu Tangkis</p>
+            </a>
+          </div>
+          <div className="col-lg-3">
+            <a href="#">
+              <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+              <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px" }}>Basket</p>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="container my-4">
+        <div className="row d-flex justify-content-center align-items-center">
+          <div className="btn-group col-md-12">
+            <input type="text" className="form-control col-10 mt-2 col-md-10" placeholder="Cari Lapangan Disini" />
+            <a href='/user/cari-lapangan' className="form-control col-2 mt-2 col-sm-2 btn shadow-sm" style={{ backgroundColor: '#EE8F00' }}><button ><i className="fa fa-search text-white"></i></button></a>
+          </div>
+        </div>
+      </div>
+
+
       <div>
         <div className="container my-4 text-black-50" >
           <h2 style={{ color: 'black' }} className='fw-bold fst-italic'>REKOMENDASI LAPANGAN</h2>
@@ -45,25 +86,9 @@ export default function Home() {
           <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
 
             <CardRekomendasi />
+            <CardRekomendasi />
+            <CardRekomendasi />
           </div>
-        </div>
-        <div className="container my-4">
-          <div className="row d-flex justify-content-center align-items-center">
-            <div className="btn-group col-md-12">
-              <input type="text" className="form-control col-10 mt-2 col-md-10" placeholder="Cari Lapangan Disini" />
-              <a href='/user/cari-lapangan' className="form-control col-2 mt-2 col-sm-2 btn shadow-sm" style={{ backgroundColor: '#EE8F00' }}><button ><i className="fa fa-search text-white"></i></button></a>
-            </div>
-          </div>
-        </div>
-
-        <div className='container my-4 text-black-50'>
-          <h2 style={{ color: 'black' }}>Pilih Kategori Olahraga</h2>
-          <select className='form-control form-select mt-4'>
-            <option>Futsal</option>
-            <option>Bulutangkis</option>
-            <option>Voli</option>
-            <option>Basket</option>
-          </select>
         </div>
         <div className='container mt-4 text-black-50'>
           <h2 style={{ color: 'black' }}>Daftar Lapangan</h2>
