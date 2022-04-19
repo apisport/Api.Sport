@@ -41,25 +41,25 @@ export default function Home() {
       <div className='container my-4'>
         <h3 className='fw-bold fst-italic'>KATEGORI OLAHRAGA</h3>
         <div className="row row-cols-4 row-cols-md-4 g-4 mt-3">
-          <div className="col-lg-3">
+          <div className="col-3 col-lg-3">
             <a href="#">
               <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
               <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px" }}>Futsal</p>
             </a>
           </div>
-          <div className="col-lg-3">
+          <div className="col-3 col-lg-3">
             <a href="#">
               <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
               <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px" }}>Voli</p>
             </a>
           </div>
-          <div className="col-lg-3">
+          <div className="col-3 col-lg-3">
             <a href="#">
               <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
               <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px", fontSize: '2vh' }}>Bulu Tangkis</p>
             </a>
           </div>
-          <div className="col-lg-3">
+          <div className="col-3 col-lg-3">
             <a href="#">
               <svg className="bd-placeholder-img img-fluid rounded-circle" width={120} height={120} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
               <p className="mt-2 p-2" style={{ color: "white", backgroundColor: '#432C0B', borderRadius: "5px" }}>Basket</p>
